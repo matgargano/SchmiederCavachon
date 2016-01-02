@@ -1,0 +1,23 @@
+{
+  "name": "cavachon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matgargano/SchmiederCavachon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matgargano/SchmiederCavachon/issues"
+  },
+  "homepage": "https://github.com/matgargano/SchmiederCavachon",
+  "dependencies": {
+    "masonry": "0.0.2",
+    "readmore.js": "^2.0.4"
+  }
+}
