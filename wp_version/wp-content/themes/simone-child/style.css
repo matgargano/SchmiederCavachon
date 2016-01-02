@@ -1,0 +1,154 @@
+/*
+Theme Name: Gleneden Cavachon
+Author: Chris Schmieder
+Description: Child theme of Simone that adds a custom one-page style lander page
+Version: 0.1
+Template: simone
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Open+Sans:400,400italic|Raleway:400,300,500,700|Roboto+Slab);
+@font-face{font-family: MeetMeInBrooklyn-Regular;src:url(http://www.denisechandler.com/webfonts/2D2841_0_0.woff2)format("woff2");}
+
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+}
+
+#menu-front-page-menu {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	margin: 0;
+}
+
+
+header .navbar {
+	padding: 30px 0;
+}
+
+header .navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+header .navbar-default .navbar-nav a {
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: white;
+	padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+	color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+	font-weight: 700;
+	color: #EEC856;
+	background: transparent;
+	border-bottom: 4px solid #EEC856;
+	text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+	color: #E15D5F;
+	background: transparent;	
+	text-shadow: none;
+}	
+
+/** Navbar Brand **/
+
+header .navbar-brand {
+	background: url(images/wisdompetlogo.svg); 
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+	height: auto;
+}
+
+header .navbar-brand h1 {
+	color: black;
+	margin: 0;
+	font-size: 1.8em;
+	font-weight: 400;
+	padding-left: 125px;
+	/*text-transform: uppercase;*/
+	font-family: "Roboto Slab", serif;
+	
+}
+
+header .navbar-brand span.subhead {
+  display: block;
+  font-family: "Roboto Slab", serif;
+  font-size: .8em;
+  font-weight: 100;
+}
+
+.header-image a img {          
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.header-image a img {
+    background-position: top center;
+    color: #ffffff;
+    height: 645px;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    z-index: 999999;
+}
+
+h2.page-title {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	text-align: center;
+}
+
+/**  Page **/
+.page {
+  padding: 50px 0;
+}
+
+section .page-heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+		/*Welcome Section Cavachon*/
+
+#welcome-gleneden {
+    background-color: #E4D29D;
+    background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+    border-top: 20px solid rgba(238, 200, 86, .5);
+}
+
+#welcome-gleneden img {
+	margin-right: 25px;
+	margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+section .flex-container-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 900px;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+	section .flex-container-row {
+		flex-wrap: nowrap;
+		align-items: flex-start;
+	}
+}
